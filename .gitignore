@@ -1,0 +1,21 @@
+.pio/
+.pioenvs/
+.piolibdeps/
+include/config.h
+
+# Weitere lokale Zugangsdaten und Schluessel
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+!secrets.example.*
+
+# Lokale Entwicklungsartefakte
+.vscode/
+.idea/
+*.log
+.DS_Store
