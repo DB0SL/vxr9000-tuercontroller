@@ -49,3 +49,7 @@ Im vorliegenden Schaltplan sind ESP32-GND, Optokoppler-GND und VXR-GND miteinand
 3. Mit `./build.sh all` bauen, auf das ESP32 DevKitC V4 flashen und anschließend den seriellen Monitor mit 115200 Baud öffnen. Bei mehreren USB-Seriell-Adaptern: `PORT=/dev/ttyUSB0 ./build.sh all`.
 
 Voraussetzung: PlatformIO CLI (`pio`) im `PATH`. Ohne angeschlossenes Board kann der Upload und Monitor nicht geprüft werden. Der MQTT-Broker verwendet hier unverschlüsseltes MQTT über TCP (Vorgabe Port 1883); er sollte im vertrauenswürdigen Netz stehen.
+
+## Lizenz
+
+Firmware, Dokumentation und Schaltungsunterlagen in diesem Repository stehen unter der [MIT-Lizenz](LICENSE).
